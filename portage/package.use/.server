@@ -1,0 +1,14 @@
+app-emulation/virtualbox	extensions vnc
+dev-lang/php			apache2 exif imap mysql mysqli mysqlnd zip intl
+dev-db/mysql			extraengine profiling 
+net-mail/dovecot		managesieve mysql sdbox sieve suid
+mail-mta/postfix		dovecot-sasl mysql
+mail-filter/amavisd-new		dkim mysql razor spamassassin
+net-analyzer/net-snmp		perl
+mail-filter/spamassassin	mysql
+net-misc/openvpn		iproute2
+dev-vcs/gitolite		contrib
+net-ftp/pure-ftpd		vchroot
+
+xfce-base/xfce4-meta		minimal
+x11-libs/cairo			X

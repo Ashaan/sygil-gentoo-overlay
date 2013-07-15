@@ -1,0 +1,93 @@
+media-libs/mesa				g3dvl gles1 gles2 openvg vdpau xvmc xa
+x11-libs/cairo				openvg
+x11-libs/gtk+				xinerama
+=x11-libs/cairo-1.12*			-qt4
+net-dns/avahi				autoipd gtk3
+media-libs/cogl				gles2 
+net-print/hplip				hpijs scanner
+gnome-base/gvfs                         archive fuse gdu udisks
+media-video/totem			flash grilo nsplugin vala
+net-im/telepathy-connection-managers	icq jabber msn yahoo
+net-libs/farstream			msn upnp
+net-libs/libnice			upnp
+net-im/pidgin				idn -eds
+mail-client/thunderbird			gconf
+media-video/ffmpeg			aacplus amr avx cdio cpudetection dirac faac libv4l theora threads v4l vdpau vpx
+virtual/ffmpeg				theora threads vdpau
+=media-plugins/gst-plugins-meta-1.0*    ffmpeg http lame libvisual taglib theora v4l vpx
+=media-plugins/gst-plugins-meta-0.10*   -ffmpeg http lame libvisual taglib theora v4l vpx
+www-plugins/adobe-flash			vdpau
+media-video/vlc				dirac theora twolame wma-fixed
+app-emulation/wine			openal opencl xcomposite -perl
+sys-block/gparted			btrfs fat ntfs
+app-emulation/virtualbox		extensions vnc
+mail-client/claws-mail			bogofilter
+net-analyzer/munin			minimal
+app-i18n/ibus                           dconf
+dev-java/oracle-jre-bin			fontconfig nsplugin
+dev-vcs/rabbitvcs			diff git
+media-video/vlc                         egl fluidsynth lua matroska skins vaapi
+dev-libs/folks				vala
+gnome-extra/evolution-data-server	vala
+=media-libs/gst-plugins-base-1.0*	theora
+sys-fs/eudev				gudev keymap hwdb
+media-gfx/eog-plugins			-flickr map
+www-plugins/adobe-flash			32bit
+games-util/steam-client-meta            flash
+net-misc/networkmanager			modemmanager
+media-video/ffmpeg			opus
+dev-java/icedtea-web                    gtk3 javascript
+gnome-extra/zeitgeist                   extensions icu plugins
+gnome-extra/zeitgeist-extensions        geolocation
+=gnome-extra/zeitgeist-datasources-0.8.0.1 -eog
+net-misc/spice-gtk			gstreamer -pulseaudio
+
+##
+# Test
+##
+sys-kernel/dracut		dracut_modules_plymouth optimization
+x11-libs/libdrm			libkms
+sys-boot/plymouth		gdm
+sys-apps/systemd		-openrc
+
+##
+# Temp
+##
+gnome-extra/gnome-games                 -aisleriot
+app-misc/tracker                        -eds
+net-im/pidgin                           -eds
+x11-wm/enlightenment                    emotion ukit
+dev-libs/e_dbus                         -connman
+
+##
+# Netbeans
+##
+dev-java/swing-layout	source
+dev-vcs/subversion	java
+
+app-office/libreoffice			gtk3 jemalloc telepathy
+app-emulation/emul-linux-x86-qtlibs	gtkstyle
+app-emulation/libvirt			qemu
+app-emulation/qemu			spice
+=net-misc/spice-gtk-0.14*		-gstreamer
+=gnome-base/gnome-light-3.6*    	-fallback
+gnome-extra/evolution-data-server	google
+=media-libs/emotion-1.7.6*	        -gstreamer vlc
+=www-client/firefox-20*		        -gstreamer
+=media-libs/libsdl-2.0.0_pre7022        abi_x86_32
+=media-plugins/gst-plugins-meta-0.10*   -ffmpeg
+=www-client/firefox-21*		        -gstreamer
+dev-libs/gobject-introspection          python_single_target_python2_7
+=virtual/udev-197-r3                    static-libs
+
+sys-apps/systemd 		openrc
+net-misc/networkmanager 	-consolekit
+=www-client/firefox-21*		-gstreamer system-cairo
+=www-client/firefox-22*         -gstreamer system-cairo
+sys-fs/udisks			-crypt
+
+##
+# Plymouth
+##
+sys-boot/plymouth		-openrc
+sys-kernel/dracut		net

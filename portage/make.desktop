@@ -1,0 +1,15 @@
+source /etc/portage/make.default
+
+USE="$USE bluetooth pulseaudio networkmanager pm-utils"
+
+USE="$USE avahi samba"
+
+USE="$USE xinerama introspection"
+
+USE="$USE chromium eog gedit totem empathy zeitgeist"
+
+USE="$USE gstreamer icu gphoto2 mtp udisks"
+
+USE="$USE upnp"
+
+ENLIGHTENMENT_MODULES="backlight battery clock comp conf-applications conf-dialogs conf-display conf-edgebindings conf-interaction conf-intl conf-keybindings conf-menus conf-paths conf-performance conf-randr conf-shelves conf-theme conf-window-manipulation conf-window-remembers cpufreq dropshadow everything fileman fileman-opinfo gadman ibar ibox illume2 mixer msgbus notification pager quickaccess start syscon systray tasks temperature tiling winlist wizard xkbswitch"

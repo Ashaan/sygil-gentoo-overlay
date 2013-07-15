@@ -1,0 +1,33 @@
+SYNC="rsync://rsync.sygil.org/gentoo-portage"
+GENTOO_MIRRORS="ftp://ftp.sygil.org/pub/gentoo/"
+FEATURES="ccache"
+LINGUAS="fr"
+
+source /var/lib/layman/make.conf
+
+VIDEO_CARDS="fbdev"
+INPUT_DEVICE="evdev"
+GRUB_PLATFORMS="coreboot efi-64 multiboot pc"
+ACCEPT_LICENSE="AdobeFlash-10.3 PUEL googleearth skype-4.0.0.7-copyright Oracle-BCLA-JavaSE AdobeFlash-11.x"
+
+
+##
+# CPU
+##
+USE="$USE mmx mmxext 3dnow 3dnowext sse sse2 sse3 ssse3 custom-cflags custom-optimization"
+
+
+##
+# System
+##
+USE="$USE network-cron xattr caps gmp lzma archive threads idn bash-completion upnp"
+
+##
+# Language
+##
+USE="$USE python3 python system-sqlite system-jpeg"
+
+##
+# Server/Client
+##
+USE="$USE -ldap"

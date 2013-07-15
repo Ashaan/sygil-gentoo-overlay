@@ -1,0 +1,28 @@
+# Configuration de GCC
+CFLAGS="-march=native -O2 -pipe"
+# -floop-interchange -floop-strip-mine -floop-block -floop-parallelize-all"
+CHOST="x86_64-pc-linux-gnu"
+CXXFLAGS="${CFLAGS}"
+MAKEOPTS="-j5"
+
+# Configuration des Mises a Jour
+CCACHE_SIZE="2G"
+source /etc/portage/make.desktop
+
+# Processeur sse/mmx/mmxext/3dnow/3dnowext/sse4a/sse5/nvram
+USE="${USE} sse4 sse4a sse4b"
+
+# SystemD
+USE="${USE} systemd -consolekit"
+
+# X Config
+INPUT_DEVICES="${INPUT_DEVICES} mouse keyboard"
+VIDEO_CARDS="${VIDEO_CARDS} nvidia"
+
+# App Config
+NETBEANS_MODULES="apisupport java javafx profiler websvccommon dlight ergonomics php webcommon"
+
+# Firefox/Thunderbid need more than 8Go in /var ....
+PORTAGE_TMPDIR="/data/portage"
+
+

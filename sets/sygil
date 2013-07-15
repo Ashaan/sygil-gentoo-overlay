@@ -1,0 +1,18 @@
+# Gnome
+x11-terms/gnome-terminal
+app-editors/gedit
+
+# Application
+net-p2p/deluge
+media-video/vlc
+www-client/chromium
+
+# System
+media-plugins/alsa-plugins
+
+# Kernel
+sys-apps/v86d
+sys-apps/vbetool
+sys-power/pm-utils
+sys-power/acpid
+app-arch/lzop

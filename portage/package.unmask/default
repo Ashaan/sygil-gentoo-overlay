@@ -1,0 +1,10 @@
+##
+# Grub
+##
+=sys-boot/grub-2*
+
+##
+# MySQL
+##
+virtual/mysql
+dev-db/mysql

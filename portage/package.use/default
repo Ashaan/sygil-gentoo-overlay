@@ -1,0 +1,46 @@
+##
+# Base
+##
+sys-boot/grub				custom-cflags mount
+dev-libs/libxml2			icu lzma
+sys-devel/gcc				graphite
+dev-lang/python				sqlite
+dev-db/sqlite				secure-delete unlock-notify
+dev-vcs/git                             -perl -webdav
+app-portage/layman			git subversion bazaar
+sys-libs/zlib				minizip
+dev-libs/libgcrypt			static-libs
+net-analyzer/rrdtool			perl
+dev-lang/php				gd mhash pdo sockets xmlreader xmlwriter xsl
+net-dns/bind				dlz
+net-dns/avahi				-howl-compat mdnsresponder-compat utils
+net-print/hplip				snmp
+net-print/cups          		slp
+#sys-fs/lvm2 				static-libs
+#sys-apps/util-linux			static-libs
+media-libs/gd				fontconfig
+net-p2p/deluge                          geoip setproctitle
+
+##
+# Boot Splash
+##
+media-libs/libmng			static-libs
+media-libs/freetype			static-libs
+media-libs/lcms:0			static-libs
+media-libs/libjpeg-turbo		static-libs
+app-arch/bzip2				static-libs
+media-libs/libpng			static-libs
+virtual/jpeg				static-libs
+sys-libs/zlib				static-libs
+media-gfx/splashutils			fbcondecor
+
+##
+# Postgres
+##
+dev-db/postgresql-server		perl pg_legacytimestamp uuid
+dev-db/postgresql-base			pg_legacytimestamp
+
+##
+# Mongo
+##
+dev-db/mongodb				v8

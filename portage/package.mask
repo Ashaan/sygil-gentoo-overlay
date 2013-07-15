@@ -1,0 +1,2 @@
+=games-board/aisleriot-3.4.1-r1
+=net-misc/openvpn-2.3*
