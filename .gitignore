@@ -1,0 +1,10 @@
+.svn
+portage/postsync.d
+portage/savedconfig
+portage/.keep_sys-apps_portage-0
+portage/bin
+portage/*/desktop
+portage/*/server
+portage/make.profile
+*~
+._cfg0*

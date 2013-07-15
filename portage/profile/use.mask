@@ -1,0 +1,3 @@
+-packagekit
+-zeitgeist
+-systemd
