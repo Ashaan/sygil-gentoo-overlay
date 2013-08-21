@@ -9,7 +9,7 @@
 =sys-apps/accountsservice-0.6.30 ~amd64
 =net-libs/gssdp-0.14*
 =net-libs/gupnp-0.20*
-
+=dev-lang/spidermonkey-17.0*
 
 ##
 # Gnome 3.6
@@ -459,9 +459,9 @@ dev-db/mysql-workbench
 =sys-apps/systemd-ui-1*
 =media-libs/gd-2.0*
 =dev-python/mako-0.7*
-=virtual/udev-197*
+=virtual/udev-206*
 =sys-fs/udev-204*
-=sys-apps/kmod-13*
+=sys-apps/kmod-14*
 =dev-db/pgadmin3-1.16*
 
 ##
