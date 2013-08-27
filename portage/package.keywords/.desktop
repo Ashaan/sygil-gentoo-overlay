@@ -42,6 +42,7 @@
 =app-misc/gnote-3.8*
 =app-misc/tracker-0.16*
 =app-text/evince-3.8*
+=app-text/ghostscript-gpl-9*
 =app-text/qpdf-3.0*
 =app-text/yelp-tools-3.6*
 
@@ -183,9 +184,11 @@
 =media-libs/gst-plugins-ugly-1.0*
 =media-libs/gstreamer-1.0*
 =media-libs/harfbuzz-0.9*
+=media-libs/lcms-2.5*
 =media-libs/libchamplain-0.12*
 =media-libs/libgnome-media-profiles-3*
 =media-libs/libgphoto2-2.5*
+=media-libs/libpng-1.6.3*
 =media-libs/libvpx-1.1*
 =media-libs/libwebp-0.3*
 =media-libs/musicbrainz-5.0*
