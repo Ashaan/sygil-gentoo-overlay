@@ -73,14 +73,14 @@ app-emulation/qemu			spice
 =gnome-base/gnome-light-3.6*    	-fallback
 gnome-extra/evolution-data-server	google
 =media-libs/emotion-1.7.6*	        -gstreamer vlc
-=media-libs/libsdl-2.0.0_pre7022        abi_x86_32
+>=media-libs/libsdl-2.0.0               abi_x86_32
 =media-plugins/gst-plugins-meta-0.10*   -ffmpeg
 =www-client/firefox-21*		        -gstreamer
 dev-libs/gobject-introspection          python_single_target_python2_7
 sys-apps/systemd 		openrc
 net-misc/networkmanager 	-consolekit
-=www-client/firefox-22*		-gstreamer system-cairo
-=www-client/firefox-23*         -gstreamer system-cairo
+www-client/firefox		system-cairo
+<=www-client/firefox-23.0       -gstreamer
 sys-fs/udisks			-crypt
 
 ##

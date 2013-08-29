@@ -334,8 +334,6 @@
 ##
 # Google
 ##
-www-client/chromium
-dev-lang/v8
 sci-geosciences/googleearth
 =dev-util/patchelf-0.6
 =dev-lang/nacl-toolchain-newlib-0_p9093       
@@ -357,8 +355,6 @@ sci-geosciences/googleearth
 ##
 # Mozilla
 ##
-www-client/firefox
-mail-client/thunderbird
 =dev-libs/nss-3.13*
 =dev-libs/nspr-4.10*
 
