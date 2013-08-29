@@ -81,6 +81,7 @@ sys-apps/systemd 		openrc
 net-misc/networkmanager 	-consolekit
 =www-client/firefox-22*		-gstreamer system-cairo
 =www-client/firefox-23*         -gstreamer system-cairo
+=www-client/firefox-24*         -gstreamer system-cairo
 sys-fs/udisks			-crypt
 
 ##
