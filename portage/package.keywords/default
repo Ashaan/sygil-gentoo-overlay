@@ -46,7 +46,7 @@ app-emulation/emul-linux-x86-gtklibs
 =net-wireless/bluez-4.101*
 =sys-fs/lvm2-2.02*
 sys-apps/hwids
-=sys-apps/kmod-10
+=sys-apps/kmod-15
 =sys-apps/pciutils-3.1.9*
 =sys-apps/usbutils-005*
 =sys-apps/openrc-0.11*
@@ -83,7 +83,7 @@ dev-perl/JSON-XS
 # Mongo
 ##
 =app-arch/snappy-1.0*
-=dev-db/mongodb-2.2*
+=dev-db/mongodb-2.4*
 =dev-libs/boost-1.52*
 =dev-util/boost-build-1.52*
 

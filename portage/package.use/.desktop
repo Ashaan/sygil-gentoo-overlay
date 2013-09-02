@@ -80,7 +80,7 @@ dev-libs/gobject-introspection          python_single_target_python2_7
 sys-apps/systemd 		openrc
 net-misc/networkmanager 	-consolekit
 www-client/firefox		system-cairo
-<=www-client/firefox-23.0       -gstreamer
+<=www-client/firefox-24.0       -gstreamer
 sys-fs/udisks			-crypt
 
 ##
@@ -88,3 +88,6 @@ sys-fs/udisks			-crypt
 ##
 sys-boot/plymouth		-openrc
 sys-kernel/dracut		net
+
+
+

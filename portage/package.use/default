@@ -43,4 +43,4 @@ dev-db/postgresql-base			pg_legacytimestamp
 ##
 # Mongo
 ##
-dev-db/mongodb				v8
+dev-db/mongodb				v8 embedded-v8
