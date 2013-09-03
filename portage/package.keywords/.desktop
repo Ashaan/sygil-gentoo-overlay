@@ -455,6 +455,7 @@ media-sound/spotify
 gnome-extra/gnome-integration-spotify
 net-im/skype
 dev-db/mysql-workbench
+=dev-libs/antlr-c-3.5*
 =sys-apps/systemd-194*
 =sys-apps/systemd-ui-1*
 =media-libs/gd-2.0*

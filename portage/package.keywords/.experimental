@@ -1,0 +1,3 @@
+=net-analyzer/ntopng-9999 **
+=net-analyzer/ntopng-1* **
+=net-libs/zeromq-3.2*

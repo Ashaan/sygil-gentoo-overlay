@@ -6,5 +6,6 @@ portage/bin
 portage/*/desktop
 portage/*/server
 portage/make.profile
+portage/package.keywords/experimental
 *~
 ._cfg0*
