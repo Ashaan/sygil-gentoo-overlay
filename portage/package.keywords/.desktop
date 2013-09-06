@@ -451,7 +451,7 @@ app-emulation/steam-runtime-bin
 ##
 # Other
 ##
-media-sound/spotify
+media-sound/spotify **
 gnome-extra/gnome-integration-spotify
 net-im/skype
 dev-db/mysql-workbench
@@ -484,4 +484,9 @@ sys-apps/systemd
 =sys-apps/systemd-ui-2*
 sys-apps/systemd-units
 
-
+##
+# Cinnamon
+##
+=gnome-extra/cinnamon-1.8*
+=x11-wm/muffin-1.8*
+=gnome-extra/nemo-1.8*
