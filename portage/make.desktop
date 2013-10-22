@@ -6,7 +6,7 @@ USE="$USE avahi samba"
 
 USE="$USE xinerama introspection"
 
-USE="$USE chromium eog gedit totem empathy zeitgeist"
+USE="$USE chromium eog gedit totem empathy zeitgeist tracker"
 
 USE="$USE gstreamer icu gphoto2 mtp udisks"
 

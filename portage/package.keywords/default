@@ -38,6 +38,7 @@ app-emulation/emul-linux-x86-db
 app-emulation/emul-linux-x86-soundlibs
 app-emulation/emul-linux-x86-qtlibs
 app-emulation/emul-linux-x86-gtklibs
+app-emulation/emul-linux-x86-gstplugins
 
 ##
 # UDev
@@ -99,3 +100,5 @@ dev-perl/JSON-XS
 =sys-devel/automake-1.13*
 =sys-devel/automake-wrapper-8* 
 =app-admin/rsyslog-7*
+=sys-block/thin-provisioning-tools-0.2*
+=dev-libs/gmp-5.1.3-r1

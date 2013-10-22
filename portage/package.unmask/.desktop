@@ -270,6 +270,11 @@
 =gnome-base/gnome-3.8* 
 =gnome-base/gnome-light-3.8* 
 =dev-cpp/glibmm-2.36*
+=sci-geosciences/geocode-glib-0.99*
+=media-libs/libquvi-scripts-0.9*
+=media-libs/libquvi-0.9*
+=sci-geosciences/geocode-glib-3.10*
+=app-crypt/libsecret-0.16*
 
 ##
 # Temp
