@@ -45,6 +45,10 @@ media-video/cheese			grilo
 app-misc/geoclue                        geonames gps gsmloc hostip nominatim plazes skyhook 
 net-fs/cifs-utils			ads
 net-fs/samba				winbind
+media-libs/cogl				kms
+media-libs/clutter			evdev
+media-libs/mesa				gbm
+
 
 ##
 # Test
