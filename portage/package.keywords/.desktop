@@ -498,6 +498,8 @@ dev-util/visualvm
 =app-emulation/wine-1.5*
 =virtual/jpeg-62*
 =net-print/hplip-3.13*
+=dev-db/vsqlite++-0.3*
+=dev-util/cmake-2.8*
 
 ##
 # Hybrid Graphic nVidia/Intel

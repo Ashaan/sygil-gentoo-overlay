@@ -43,6 +43,8 @@ gnome-extra/zeitgeist-extensions        geolocation
 net-misc/spice-gtk			gstreamer -pulseaudio
 media-video/cheese			grilo 
 app-misc/geoclue                        geonames gps gsmloc hostip nominatim plazes skyhook 
+net-fs/cifs-utils			ads
+net-fs/samba				winbind
 
 ##
 # Test
@@ -60,7 +62,7 @@ app-misc/tracker                        -eds
 net-im/pidgin                           -eds
 x11-wm/enlightenment                    emotion ukit
 dev-libs/e_dbus                         -connman
-
+gnome-base/gnome-extra-apps             -evolution -games
 ##
 # Netbeans
 ##

@@ -1,0 +1,211 @@
+##
+# Base
+##
+app-emulation/emul-linux-x86-baselibs	abi_x86_32
+sys-libs/zlib				abi_x86_32
+app-arch/bzip2				abi_x86_32
+media-libs/libpng			abi_x86_32
+dev-libs/udis86				abi_x86_32
+virtual/libffi				abi_x86_32
+sys-devel/llvm				abi_x86_32
+media-libs/libpng			abi_x86_32
+media-libs/libjpeg-turbo		abi_x86_32
+sys-libs/libraw1394			abi_x86_32
+sys-libs/libavc1394			abi_x86_32
+dev-libs/expat				abi_x86_32
+virtual/libusb				abi_x86_32
+virtual/libusb				abi_x86_32
+virtual/udev				abi_x86_32
+media-libs/tiff				abi_x86_32
+sys-apps/attr				abi_x86_32
+dev-libs/glib				abi_x86_32
+media-libs/lcms				abi_x86_32
+app-text/libpaper			abi_x86_32
+media-libs/tiff				abi_x86_32
+dev-libs/elfutils			abi_x86_32
+dev-libs/libelf				abi_x86_32
+sys-libs/e2fsprogs-libs			abi_x86_32
+sys-libs/ncurses			abi_x86_32
+sys-libs/gpm				abi_x86_32
+dev-libs/libusbx			abi_x86_32
+sys-apps/systemd			abi_x86_32
+app-arch/xz-utils			abi_x86_32
+virtual/jpeg				abi_x86_32
+dev-libs/libusb-compat			abi_x86_32
+dev-libs/libffi				abi_x86_32
+virtual/libiconv			abi_x86_32
+dev-libs/gmp                            abi_x86_32
+
+##
+# X
+##
+app-emulation/emul-linux-x86-xlibs	abi_x86_32
+media-libs/fontconfig			abi_x86_32
+media-libs/freetype			abi_x86_32
+x11-libs/libICE				abi_x86_32
+x11-libs/libpciaccess			abi_x86_32
+x11-libs/libSM				abi_x86_32
+x11-libs/libvdpau			abi_x86_32
+x11-libs/libX11				abi_x86_32
+x11-libs/libXau				abi_x86_32
+x11-libs/libXaw				abi_x86_32
+x11-libs/libxcb				abi_x86_32
+x11-libs/libXcomposite			abi_x86_32
+x11-libs/libXcursor			abi_x86_32
+x11-libs/libXdamage			abi_x86_32
+x11-libs/libXdmcp			abi_x86_32
+x11-libs/libXext			abi_x86_32
+x11-libs/libXfixes			abi_x86_32
+x11-libs/libXft				abi_x86_32
+x11-libs/libXi				abi_x86_32
+x11-libs/libXinerama			abi_x86_32
+x11-libs/libXmu				abi_x86_32
+x11-libs/libXp				abi_x86_32
+x11-libs/libXpm				abi_x86_32
+x11-libs/libXrandr			abi_x86_32
+x11-libs/libXrender			abi_x86_32
+x11-libs/libXScrnSaver			abi_x86_32
+x11-libs/libXt				abi_x86_32
+x11-libs/libXtst			abi_x86_32
+x11-libs/libXv				abi_x86_32
+x11-libs/libXvMC			abi_x86_32
+x11-libs/libXxf86dga			abi_x86_32
+x11-libs/libXxf86vm			abi_x86_32
+x11-proto/xineramaproto			abi_x86_32
+x11-proto/xf86vidmodeproto		abi_x86_32
+x11-proto/xcb-proto			abi_x86_32
+x11-proto/inputproto			abi_x86_32
+x11-proto/renderproto			abi_x86_32
+x11-proto/xextproto			abi_x86_32
+x11-proto/printproto			abi_x86_32
+dev-libs/libpthread-stubs		abi_x86_32
+x11-proto/xproto			abi_x86_32
+x11-proto/scrnsaverproto		abi_x86_32
+x11-proto/videoproto			abi_x86_32
+x11-proto/xf86bigfontproto		abi_x86_32
+x11-proto/kbproto			abi_x86_32
+x11-proto/xf86dgaproto			abi_x86_32
+x11-proto/randrproto			abi_x86_32
+x11-proto/damageproto			abi_x86_32
+x11-proto/recordproto			abi_x86_32
+x11-proto/compositeproto		abi_x86_32
+x11-proto/fixesproto			abi_x86_32
+
+##
+# Sound
+##
+app-emulation/emul-linux-x86-soundlibs	abi_x86_32
+media-libs/libogg			abi_x86_32
+media-libs/libvorbis			abi_x86_32
+media-libs/libmodplug			abi_x86_32
+media-sound/gsm				abi_x86_32
+media-libs/webrtc-audio-processing	abi_x86_32
+media-libs/alsa-lib			abi_x86_32
+media-libs/flac				abi_x86_32
+media-libs/audiofile			abi_x86_32
+sci-libs/fftw				abi_x86_32
+media-libs/ladspa-sdk			abi_x86_32
+media-plugins/caps-plugins		abi_x86_32
+media-plugins/swh-plugins		abi_x86_32
+media-libs/libmikmod			abi_x86_32
+media-plugins/alsaequal			abi_x86_32
+media-sound/cdparanoia			abi_x86_32
+media-sound/wavpack			abi_x86_32
+media-sound/musepack-tools		abi_x86_32
+media-libs/libsndfile			abi_x86_32
+media-libs/libsamplerate		abi_x86_32
+media-sound/twolame			abi_x86_32
+media-sound/jack-audio-connection-kit	abi_x86_32
+media-libs/portaudio			abi_x86_32
+media-sound/mpg123			abi_x86_32
+media-libs/libreplaygain		abi_x86_32
+media-libs/libcuefile			abi_x86_32
+
+##
+# Media
+##
+app-emulation/emul-linux-x86-medialibs  abi_x86_32
+media-libs/libvpx			abi_x86_32
+media-libs/xvid				abi_x86_32
+media-sound/lame			abi_x86_32
+media-libs/faac				abi_x86_32
+media-libs/faad2			abi_x86_32
+media-libs/libtheora			abi_x86_32
+media-libs/libcuefile			abi_x86_32
+media-libs/libreplaygain		abi_x86_32
+media-libs/libmad			abi_x86_32
+media-libs/libdca			abi_x86_32
+media-libs/speex			abi_x86_32
+media-libs/libdvdread			abi_x86_32
+media-libs/libdvdnav			abi_x86_32
+media-libs/libv4l			abi_x86_32
+media-libs/libid3tag			abi_x86_32
+media-libs/libshout			abi_x86_32
+media-libs/libsidplay			abi_x86_32
+media-libs/x264				abi_x86_32
+media-libs/libiec61883			abi_x86_32
+media-libs/a52dec			abi_x86_32
+media-libs/libmimic			abi_x86_32
+media-libs/libmms			abi_x86_32
+media-libs/libvisual			abi_x86_32
+media-libs/libmpeg2			abi_x86_32
+dev-libs/liboil				abi_x86_32
+sys-libs/libieee1284			abi_x86_32
+dev-libs/fribidi			abi_x86_32
+dev-libs/libcdio			abi_x86_32
+=media-video/ffmpeg-0.10*		abi_x86_32 -amr
+media-libs/libdv			abi_x86_32
+media-libs/libdvdcss			abi_x86_32
+media-video/dirac			abi_x86_32
+media-libs/vo-aacenc			abi_x86_32
+media-libs/libaacplus			abi_x86_32
+media-libs/opencore-amr			abi_x86_32
+dev-libs/libcdio-paranoia		abi_x86_32
+media-libs/vo-amrwbenc			abi_x86_32
+
+
+
+##
+# Divers
+##
+=dev-libs/elfutils-0.156 static-libs
+
+##
+# APP: Skype 
+##
+# +emul-linux-x86-baselibs
+# +emul-linux-x86-qtlibs
+# +emul-linux-x86-soundlibs
+x11-libs/libX11			abi_x86_32
+x11-libs/libXext		abi_x86_32
+x11-libs/libXScrnSaver		abi_x86_32
+x11-libs/libXv			abi_x86_32
+
+##
+# APP: Wine
+##
+# +emul-linux-x86-gstplugins
+# +emul-linux-x86-medialibs
+# +emul-linux-x86-xlibs
+# +emul-linux-x86-soundlibs
+# +emul-linux-x86-sdl
+# +emul-linux-x86-baselibs
+app-emulation/wine		abi_x86_32
+                       
+##
+# APP: Steam
+##
+#games-util/steam-meta
+#games-util/steam-games-meta
+#games-util/steam-launcher
+games-util/steam-client-meta    flash trayicon
+media-libs/libsdl2		abi_x86_32
+dev-libs/libappindicator	abi_x86_32
+dev-libs/libindicator		abi_x86_32
+dev-libs/gobject-introspection	abi_x86_32
+dev-libs/libdbusmenu		abi_x86_32
+dev-libs/libdbusmenu2           abi_x86_32
+dev-libs/libappindicator2       abi_x86_32
+dev-libs/libindicator2          abi_x86_32
+
+
