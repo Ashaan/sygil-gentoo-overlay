@@ -48,7 +48,7 @@ net-fs/samba				winbind
 media-libs/cogl				kms
 media-libs/clutter			evdev
 media-libs/mesa				gbm
-
+net-wireless/bluez			client monitor obex tools
 
 ##
 # Test
