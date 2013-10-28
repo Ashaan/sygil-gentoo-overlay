@@ -665,4 +665,4 @@ sys-apps/systemd-units
 dev-libs/libdbusmenu2
 dev-libs/libappindicator2
 dev-libs/libindicator2
-
+=dev-libs/libpcre-8.33*

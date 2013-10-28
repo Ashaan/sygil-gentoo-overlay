@@ -35,6 +35,7 @@ dev-libs/libusb-compat			abi_x86_32
 dev-libs/libffi				abi_x86_32
 virtual/libiconv			abi_x86_32
 dev-libs/gmp                            abi_x86_32
+dev-libs/libpcre                        abi_x86_32
 
 ##
 # X
