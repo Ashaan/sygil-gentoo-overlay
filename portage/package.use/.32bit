@@ -199,6 +199,7 @@ app-emulation/wine		abi_x86_32
 #games-util/steam-meta
 #games-util/steam-games-meta
 #games-util/steam-launcher
+games-util/steam-launcher       steamruntime
 games-util/steam-client-meta    flash trayicon
 media-libs/libsdl2		abi_x86_32
 dev-libs/libappindicator	abi_x86_32
