@@ -103,4 +103,4 @@ dev-perl/JSON-XS
 =sys-block/thin-provisioning-tools-0.2*
 =dev-libs/gmp-5.1.3-r1
 =dev-libs/libestr-0.1.9*
-
+=sys-boot/os-prober-1*
