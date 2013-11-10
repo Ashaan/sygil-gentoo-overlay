@@ -623,7 +623,7 @@ sys-apps/systemd-units
 =x11-libs/libXmu-1.1*
 =x11-libs/libXau-1.0*
 =x11-libs/libXft-2.3*
-=x11-libs/libxcb-1.9*
+=x11-libs/libxcb-1.9.1*
 =x11-libs/libXxf86dga-1.1*
 =x11-proto/recordproto-1.14*
 =x11-proto/compositeproto-0.4*
