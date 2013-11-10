@@ -366,7 +366,7 @@
 =x11-misc/colord-1.0*
 =x11-misc/notification-daemon-0.7*
 =x11-proto/inputproto-2.3*
-=x11-proto/xcb-proto-1.9*
+=x11-proto/xcb-proto-1.8*
 =x11-terms/gnome-terminal-3.10*
 =x11-themes/gnome-backgrounds-3.10*
 =x11-themes/gnome-icon-theme-3.10*
