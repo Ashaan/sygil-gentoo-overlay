@@ -420,6 +420,9 @@ sci-geosciences/googleearth
 =www-plugins/adobe-flash-11.3*
 www-client/chromium
 dev-lang/v8
+www-plugins/chrome-binary-plugins
+www-client/google-chrome
+
 
 ##
 # Mozilla

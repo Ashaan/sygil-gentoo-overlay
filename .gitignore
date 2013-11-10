@@ -5,6 +5,7 @@ portage/.keep_sys-apps_portage-0
 portage/bin
 portage/*/desktop
 portage/*/server
+portage/*/32bit
 portage/make.profile
 portage/package.keywords/experimental
 *~

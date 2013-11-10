@@ -82,6 +82,7 @@ sys-apps/systemd 		openrc
 net-misc/networkmanager 	-consolekit
 www-client/firefox		system-cairo system-icu
 sys-fs/udisks			-crypt
+www-plugins/chrome-binary-plugins 	google-chrome
 
 ##
 # Plymouth
