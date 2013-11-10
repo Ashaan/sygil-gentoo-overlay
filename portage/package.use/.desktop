@@ -77,17 +77,10 @@ app-office/libreoffice			gtk3 jemalloc telepathy
 app-emulation/emul-linux-x86-qtlibs	gtkstyle
 app-emulation/libvirt			qemu
 app-emulation/qemu			spice
-#=net-misc/spice-gtk-0.14*		-gstreamer
-#=gnome-base/gnome-light-3.6*    	-fallback
 gnome-extra/evolution-data-server	google
-#=media-libs/emotion-1.7.6*	        -gstreamer vlc
-#=media-plugins/gst-plugins-meta-0.10*   -ffmpeg
-#<www-client/firefox-25.0	        -gstreamer
-#dev-libs/gobject-introspection          python_single_target_python2_7
 sys-apps/systemd 		openrc
 net-misc/networkmanager 	-consolekit
-www-client/firefox		system-cairo
-<=www-client/firefox-24.0       -gstreamer
+www-client/firefox		system-cairo system-icu
 sys-fs/udisks			-crypt
 
 ##

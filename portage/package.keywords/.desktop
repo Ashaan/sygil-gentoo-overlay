@@ -566,6 +566,14 @@ sys-apps/systemd-units
 =gnome-extra/cinnamon-2.0*
 =x11-wm/muffin-2.0*
 =gnome-extra/nemo-2.0*
+=gnome-extra/cinnamon-screensaver-2.0*
+=net-wireless/cinnamon-bluetooth-3.8*
+=gnome-extra/cinnamon-settings-daemon-2.0*
+=gnome-extra/cinnamon-control-center-2.0*
+=dev-libs/cjs-2.0*
+=gnome-extra/cinnamon-session-2.0*
+=gnome-extra/cinnamon-desktop-2.0*
+=gnome-extra/cinnamon-translations-2.0*
 
 ##
 # 32bit Support
