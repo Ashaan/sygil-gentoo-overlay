@@ -8,7 +8,7 @@ source /var/lib/layman/make.conf
 VIDEO_CARDS="fbdev"
 INPUT_DEVICE="evdev"
 GRUB_PLATFORMS="coreboot efi-64 multiboot pc"
-ACCEPT_LICENSE="AdobeFlash-10.3 PUEL googleearth skype-4.0.0.7-copyright Oracle-BCLA-JavaSE AdobeFlash-11.x"
+ACCEPT_LICENSE="AdobeFlash-10.3 PUEL googleearth skype-4.0.0.7-copyright Oracle-BCLA-JavaSE AdobeFlash-11.x google-chrome"
 
 
 ##
