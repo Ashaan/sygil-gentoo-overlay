@@ -12,8 +12,8 @@ net-libs/farstream			msn upnp
 net-libs/libnice			upnp
 net-im/pidgin				idn -eds
 mail-client/thunderbird			gconf system-cairo system-icu
-media-video/ffmpeg			aacplus amr avx cdio cpudetection dirac faac libv4l theora threads v4l vdpau vpx
-virtual/ffmpeg				theora threads vdpau
+media-video/ffmpeg			aacplus amr avx cdio cpudetection dirac faac libv4l theora threads v4l vdpau vpx vaapi
+virtual/ffmpeg				theora threads vdpau vaapi
 =media-plugins/gst-plugins-meta-1.0*    ffmpeg http lame libvisual taglib theora v4l vpx
 =media-plugins/gst-plugins-meta-0.10*   ffmpeg http lame libvisual taglib theora v4l vpx
 www-plugins/adobe-flash			vdpau
