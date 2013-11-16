@@ -209,5 +209,5 @@ dev-libs/libdbusmenu		abi_x86_32
 dev-libs/libdbusmenu2           abi_x86_32
 dev-libs/libappindicator2       abi_x86_32
 dev-libs/libindicator2          abi_x86_32
-
+www-plugins/adobe-flash         abi_x86_32
 

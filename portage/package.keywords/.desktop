@@ -422,7 +422,7 @@ www-client/chromium
 dev-lang/v8
 www-plugins/chrome-binary-plugins
 www-client/google-chrome
-
+=dev-libs/protobuf-2.5*
 
 ##
 # Mozilla
