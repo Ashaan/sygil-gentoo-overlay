@@ -36,6 +36,10 @@ dev-libs/libffi				abi_x86_32
 virtual/libiconv			abi_x86_32
 dev-libs/gmp                            abi_x86_32
 dev-libs/libpcre                        abi_x86_32
+sys-apps/tcp-wrappers			abi_x86_32
+sys-apps/dbus				abi_x86_32
+dev-libs/json-c                         abi_x86_32
+sys-libs/gdbm                           abi_x86_32
 
 ##
 # X
@@ -121,6 +125,11 @@ media-libs/portaudio			abi_x86_32
 media-sound/mpg123			abi_x86_32
 media-libs/libreplaygain		abi_x86_32
 media-libs/libcuefile			abi_x86_32
+net-libs/libasyncns			abi_x86_32
+media-libs/libao			abi_x86_32
+sys-libs/libcap				abi_x86_32
+media-sound/pulseaudio			abi_x86_32
+media-libs/sbc				abi_x86_32
 
 ##
 # Media

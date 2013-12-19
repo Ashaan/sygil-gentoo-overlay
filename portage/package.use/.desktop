@@ -4,10 +4,11 @@ x11-libs/gtk+				xinerama
 =x11-libs/cairo-1.12*			-qt4
 net-dns/avahi				autoipd gtk3
 media-libs/cogl				gles2 
-net-print/hplip				hpijs scanner
+net-print/hplip				hpijs scanner python_single_target_python2_7
 gnome-base/gvfs                         archive fuse gdu udisks
-media-video/totem			flash grilo nsplugin vala
-net-im/telepathy-connection-managers	icq jabber msn yahoo
+media-video/totem			flash grilo nsplugin vala python_single_target_python2_7
+dev-libs/totem-pl-parser		quvi
+net-im/telepathy-connection-managers	icq jabber msn yahoo irc sip zeroconf
 net-libs/farstream			msn upnp
 net-libs/libnice			upnp
 net-im/pidgin				idn -eds
@@ -20,7 +21,7 @@ www-plugins/adobe-flash			vdpau
 media-video/vlc				dirac theora twolame wma-fixed
 app-emulation/wine			openal opencl xcomposite -perl mono
 sys-block/gparted			btrfs fat ntfs
-app-emulation/virtualbox		extensions vnc
+app-emulation/virtualbox		extensions vnc python_single_target_python2_7
 mail-client/claws-mail			bogofilter
 net-analyzer/munin			minimal
 app-i18n/ibus                           dconf
@@ -31,7 +32,7 @@ dev-libs/folks				vala
 gnome-extra/evolution-data-server	vala
 =media-libs/gst-plugins-base-1.0*	theora
 sys-fs/eudev				gudev keymap hwdb
-media-gfx/eog-plugins			-flickr map
+media-gfx/eog-plugins			-flickr map python_single_target_python2_7
 www-plugins/adobe-flash			32bit
 games-util/steam-client-meta            flash
 net-misc/networkmanager			modemmanager
@@ -49,6 +50,7 @@ media-libs/cogl				kms
 media-libs/clutter			evdev
 media-libs/mesa				gbm
 net-wireless/bluez			client monitor obex tools
+media-plugins/grilo-plugins		upnp-av
 
 ##
 # Test
@@ -92,3 +94,22 @@ sys-kernel/dracut		net
 
 
 
+games-puzzle/gnome-sudoku		python_single_target_python2_7
+net-print/cups				python_single_target_python2_7
+dev-vcs/git				python_single_target_python2_7
+dev-libs/gobject-introspection		python_single_target_python2_7
+sys-libs/tevent				python_single_target_python2_7
+gnome-extra/zeitgeist-datasources	python_single_target_python2_7
+app-i18n/ibus				python_single_target_python2_7
+dev-util/gtk-doc			python_single_target_python2_7
+net-im/pidgin				python_single_target_python2_7
+app-admin/system-config-printer-gnome	python_single_target_python2_7
+app-admin/system-config-printer-common	python_single_target_python2_7
+net-voip/telepathy-rakia		python_single_target_python2_7
+net-irc/telepathy-idle			python_single_target_python2_7
+sys-apps/systemd			python_single_target_python2_7
+dev-db/mysql-workbench			python_single_target_python2_7
+media-libs/mesa				python_single_target_python2_7
+gnome-extra/cinnamon			python_single_target_python2_7
+net-voip/telepathy-haze			python_single_target_python2_7
+media-libs/alsa-lib			python_single_target_python2_7

@@ -86,8 +86,8 @@
 =dev-python/python-geoclue-0.1*
 =dev-python/pyxdg-0.25*
 =dev-python/rdflib-3.2*
-=dev-util/anjuta-3.8*
-=dev-util/devhelp-3.8*
+=dev-util/anjuta-3.10*
+=dev-util/devhelp-3.10*
 =dev-util/gdbus-codegen-2.38*
 =dev-util/gnome-devel-docs-3.10*
 =dev-util/gtk-builder-convert-2.24*
@@ -312,6 +312,7 @@
 =net-libs/telepathy-farstream-0.6*
 =net-libs/telepathy-glib-0.20*
 =net-libs/webkit-gtk-2.2*
+=net-misc/gnome-online-miners-3.10*
 =net-misc/networkmanager-0.9.8*
 =net-misc/networkmanager-openvpn-0.9.8*
 =net-misc/modemmanager-0.7*
@@ -362,6 +363,7 @@
 =x11-libs/pango-1.36*
 =x11-libs/pangox-compat-0*
 =x11-libs/vte-0.34*
+=x11-libs/xpyb-1.3.1*
 =x11-misc/alacarte-3.10*
 =x11-misc/colord-1.0*
 =x11-misc/notification-daemon-0.7*
@@ -423,6 +425,7 @@ dev-lang/v8
 www-plugins/chrome-binary-plugins
 www-client/google-chrome
 =dev-libs/protobuf-2.5*
+www-plugins/google-talkplugin
 
 ##
 # Mozilla
@@ -435,33 +438,21 @@ mail-client/thunderbird
 ##
 # NetBeans
 ##
-=dev-java/netbeans-platform-7.2*
-=dev-java/netbeans-websvccommon-7.2*
-=dev-java/netbeans-ide-7.2*
-=dev-java/netbeans-harness-7.2*
+=dev-java/netbeans-platform-7.4*
+=dev-java/netbeans-websvccommon-7.4*
+=dev-java/netbeans-ide-7.4*
+=dev-java/netbeans-harness-7.4*
 =dev-java/lucene-3.5*
-=dev-java/netbeans-javafx-7.2*
-=dev-java/netbeans-apisupport-7.2*
-=dev-java/netbeans-nb-7.2*
-=dev-util/netbeans-7.2*
-=dev-java/netbeans-profiler-7.2*
-=dev-java/netbeans-java-7.2*
+=dev-java/netbeans-javafx-7.4*
+=dev-java/netbeans-apisupport-7.4*
+=dev-java/netbeans-nb-7.4*
+=dev-util/netbeans-7.4*
+=dev-java/netbeans-profiler-7.4*
+=dev-java/netbeans-java-7.4*
 =dev-java/oracle-jre-bin-1.7*
-
-=dev-util/netbeans-7.3*
-=dev-java/netbeans-apisupport-7.3*
-=dev-java/netbeans-javafx-7.3*
-=dev-java/netbeans-ide-7.3*
-=dev-java/netbeans-php-7.3*
-=dev-java/netbeans-profiler-7.3*
-=dev-java/netbeans-ergonomics-7.3*
-=dev-java/netbeans-dlight-7.3*
-=dev-java/netbeans-harness-7.3*
-=dev-java/netbeans-platform-7.3*
-=dev-java/netbeans-websvccommon-7.3*
-=dev-java/netbeans-webcommon-7.3*
-=dev-java/netbeans-nb-7.3*
-=dev-java/netbeans-java-7.3*
+=dev-java/netbeans-extide-7.4*
+=dev-java/jsch-0.1.49*
+=virtual/jdk-1.7*
 
 
 ##
@@ -534,7 +525,7 @@ dev-db/mysql-workbench
 =sys-apps/systemd-ui-1*
 =media-libs/gd-2.0*
 =dev-python/mako-0.7*
-=virtual/udev-206*
+=virtual/udev-208*
 =sys-fs/udev-204*
 =sys-apps/kmod-14*
 =dev-db/pgadmin3-1.16*
@@ -644,6 +635,7 @@ sys-apps/systemd-units
 =x11-libs/libXcursor-1.1*
 =x11-proto/xextproto-7.2*
 =x11-proto/xcb-proto-1.8*
+=x11-proto/xcb-proto-1.9*
 =x11-libs/libICE-1.0*
 =x11-proto/printproto-1.0*
 =x11-proto/damageproto-1.2*
@@ -716,3 +708,12 @@ dev-libs/libdbusmenu2
 dev-libs/libappindicator2
 dev-libs/libindicator2
 =dev-libs/libpcre-8.33*
+=media-plugins/alsa-plugins-1.0.27*
+=sys-apps/tcp-wrappers-7.6.22*
+=sys-apps/dbus-1.6.18*
+=media-libs/libao-1.1.0*
+=net-libs/libasyncns-0.8*
+=dev-libs/json-c-0.11*
+=sys-libs/libcap-2.22*
+=sys-libs/gdbm-1.10*
+
