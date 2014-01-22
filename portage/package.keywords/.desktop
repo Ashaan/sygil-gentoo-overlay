@@ -216,6 +216,8 @@
 =media-libs/libquvi-scripts-0.9*
 =media-libs/libvpx-1.1*
 =media-libs/libwebp-0.3*
+=media-libs/libwebp-0.4*
+=media-libs/libvpx-1.3*
 =media-libs/musicbrainz-5.0*
 =media-libs/sbc-1*
 =media-libs/tiff-4.0*
