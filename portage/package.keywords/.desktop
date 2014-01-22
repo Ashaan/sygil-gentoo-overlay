@@ -378,6 +378,8 @@
 =x11-wm/metacity-2.34*
 =x11-wm/mutter-3.10*
 =x11-wm/mutter-wayland-3.10*
+=x11-libs/gnome-pty-helper-0.35*
+=x11-libs/vte-0.35*
 
 ##
 # Enlightenment
@@ -716,4 +718,8 @@ dev-libs/libindicator2
 =dev-libs/json-c-0.11*
 =sys-libs/libcap-2.22*
 =sys-libs/gdbm-1.10*
+=sys-libs/readline-6.2*
+=dev-libs/icu-52*
+=dev-libs/dbus-glib-0.100*
+=dev-libs/libxml2-2.9*
 
