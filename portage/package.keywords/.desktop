@@ -1,3 +1,6 @@
+=dev-db/sqlite-3.8.3*
+=sys-devel/gettext-0.18.3*
+
 ##
 # Gnome 3.9
 ##
@@ -91,6 +94,7 @@
 =dev-util/gdbus-codegen-2.38*
 =dev-util/gnome-devel-docs-3.10*
 =dev-util/gtk-builder-convert-2.24*
+=dev-util/gtk-doc-am-1.20*
 =dev-util/fix-la-relink-command-0.1*
 
 =games-arcade/gnome-nibbles-3.10*
@@ -397,6 +401,9 @@
 =dev-libs/embryo-1.7*
 =dev-libs/ecore-1.7*
 =dev-libs/efreet-1.7*
+=dev-libs/efl-1.8*
+=dev-libs/wayland-1.4*
+
 
 ##
 # Wayland
@@ -516,6 +523,7 @@ app-emulation/steam-runtime-bin
 =dev-libs/liborcus-0.3*
 =dev-cpp/libcmis-0.3*        
 =app-office/libreoffice-l10n-4.0* 
+=virtual/libintl-0*
 
 ##
 # Other
@@ -724,4 +732,6 @@ dev-libs/libindicator2
 =dev-libs/icu-52*
 =dev-libs/dbus-glib-0.100*
 =dev-libs/libxml2-2.9*
+=dev-libs/nettle-2.7*
+=dev-libs/libtasn1-3.4*
 

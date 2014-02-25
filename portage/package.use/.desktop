@@ -94,6 +94,8 @@ sys-boot/plymouth		-openrc
 sys-kernel/dracut		net
 
 
+dev-libs/efl				-X audio -opengl egl gles pixman
+media-libs/grilo			playlist
 
 games-puzzle/gnome-sudoku		python_single_target_python2_7
 net-print/cups				python_single_target_python2_7
@@ -103,12 +105,10 @@ sys-libs/tevent				python_single_target_python2_7
 gnome-extra/zeitgeist-datasources	python_single_target_python2_7
 app-i18n/ibus				python_single_target_python2_7
 dev-util/gtk-doc			python_single_target_python2_7
-net-im/pidgin				python_single_target_python2_7
 app-admin/system-config-printer-gnome	python_single_target_python2_7
 app-admin/system-config-printer-common	python_single_target_python2_7
 net-voip/telepathy-rakia		python_single_target_python2_7
 net-irc/telepathy-idle			python_single_target_python2_7
-sys-apps/systemd			python_single_target_python2_7
 dev-db/mysql-workbench			python_single_target_python2_7
 media-libs/mesa				python_single_target_python2_7
 gnome-extra/cinnamon			python_single_target_python2_7

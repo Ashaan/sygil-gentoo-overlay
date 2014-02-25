@@ -44,6 +44,12 @@ dev-libs/dbus-glib              abi_x86_32
 dev-libs/icu                    abi_x86_32
 sys-libs/readline               abi_x86_32
 dev-libs/libxml2                abi_x86_32
+dev-libs/libgpg-error		abi_x86_32
+dev-db/sqlite			abi_x86_32
+sys-devel/gettext		abi_x86_32
+dev-libs/nettle                 abi_x86_32
+dev-libs/libtasn1               abi_x86_32
+
 
 ##
 # X
@@ -182,7 +188,8 @@ media-libs/vo-amrwbenc			abi_x86_32
 ##
 # Divers
 ##
-=dev-libs/elfutils-0.156 static-libs
+=dev-libs/elfutils-0.156	static-libs
+virtual/libintl			abi_x86_32
 
 ##
 # APP: Skype 
