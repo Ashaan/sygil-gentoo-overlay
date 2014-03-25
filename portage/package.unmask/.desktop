@@ -1,3 +1,4 @@
+=dev-python/python-exec-10000.1
 ##
 # Drivers
 ##
@@ -425,4 +426,12 @@
 >=x11-themes/gnome-themes-standard-3.10
 >=x11-wm/mutter-3.10
 
+
+=media-gfx/graphite2-1.2* 
+=media-libs/harfbuzz-0.9* 
+=dev-libs/libgcrypt-1.6*
+=dev-libs/libxslt-1.1*
+=dev-libs/lzo-2.06*
+=app-emulation/emul-linux-x86-baselibs-20131008-r21
+=dev-libs/libgcrypt-1.5*
 

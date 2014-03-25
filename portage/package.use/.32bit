@@ -49,6 +49,9 @@ dev-db/sqlite			abi_x86_32
 sys-devel/gettext		abi_x86_32
 dev-libs/nettle                 abi_x86_32
 dev-libs/libtasn1               abi_x86_32
+dev-libs/libxslt		abi_x86_32
+dev-libs/lzo			abi_x86_32
+dev-libs/libgcrypt		abi_x86_32
 
 
 ##

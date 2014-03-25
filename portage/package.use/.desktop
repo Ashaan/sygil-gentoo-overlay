@@ -1,4 +1,4 @@
-media-libs/mesa				g3dvl gles1 gles2 openvg vdpau xvmc xa
+media-libs/mesa				g3dvl gles1 gles2 openvg vdpau xvmc xa -llvm
 x11-libs/cairo				openvg
 x11-libs/gtk+				xinerama
 =x11-libs/cairo-1.12*			-qt4
@@ -35,7 +35,7 @@ sys-fs/eudev				gudev keymap hwdb
 media-gfx/eog-plugins			-flickr map python_single_target_python2_7
 www-plugins/adobe-flash			32bit
 games-util/steam-client-meta            flash
-net-misc/networkmanager			modemmanager
+net-misc/networkmanager			modemmanager dhcpcd
 media-video/ffmpeg			opus
 dev-java/icedtea-web                    gtk3 javascript
 gnome-extra/zeitgeist                   extensions icu plugins
@@ -87,6 +87,8 @@ sys-fs/udisks			-crypt
 www-plugins/chrome-binary-plugins 	google-chrome
 net-print/cups-filters          -foomatic
 net-print/cups			-filters
+app-crypt/gcr			vala
+
 ##
 # Plymouth
 ##
@@ -116,3 +118,4 @@ net-voip/telepathy-haze			python_single_target_python2_7
 media-libs/alsa-lib			python_single_target_python2_7
 net-analyzer/net-snmp                   python_single_target_python2_7
 dev-util/gtk-builder-convert            python_single_target_python2_7
+dev-util/itstool			python_single_target_python2_7

@@ -2,3 +2,4 @@
 =net-misc/openvpn-2.3*
 =dev-java/icedtea-7.2.4.5
 =net-libs/webkit-gtk-2.2.5
+=net-im/telepathy-mission-control-5.16.1
