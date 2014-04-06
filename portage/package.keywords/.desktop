@@ -322,7 +322,9 @@
 =net-libs/webkit-gtk-2.4*
 =net-misc/gnome-online-miners-3.12*
 =net-misc/networkmanager-0.9.8*
+=net-misc/networkmanager-0.9.9*
 =net-misc/networkmanager-openvpn-0.9.8*
+=net-misc/networkmanager-openvpn-0.9.9*
 =net-misc/modemmanager-1.0*
 =net-misc/rygel-0.20*
 =net-misc/spice-gtk-0.14*
