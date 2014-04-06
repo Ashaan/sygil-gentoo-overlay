@@ -44,3 +44,5 @@ dev-db/postgresql-base			pg_legacytimestamp
 # Mongo
 ##
 dev-db/mongodb				v8 embedded-v8
+
+x11-drivers/nvidia-drivers		multilib
