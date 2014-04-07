@@ -395,7 +395,7 @@
 =x11-themes/gnome-themes-standard-3.12*
 =x11-wm/metacity-2.34*
 =x11-wm/mutter-3.12*
-=x11-wm/mutter-wayland-3.10*
+=x11-wm/mutter-wayland-3.12*
 
 ##
 # Enlightenment
