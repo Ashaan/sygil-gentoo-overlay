@@ -1,6 +1,7 @@
 =net-misc/networkmanager-9999 **
 =dev-libs/libndp-9999 **
 =sys-power/upower-0.99*
+=app-misc/tracker-9999 **
 =media-gfx/sane-backends-1.0.24-r3
 =net-im/telepathy-mission-control-5.16*
 =media-libs/gfbgraph-0.2*
