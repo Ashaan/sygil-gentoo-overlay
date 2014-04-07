@@ -2,6 +2,8 @@
 =dev-libs/libndp-9999 **
 =sys-power/upower-0.99*
 =media-gfx/sane-backends-1.0.24-r3
+=net-im/telepathy-mission-control-5.16*
+=media-libs/gfbgraph-0.2*
 
 ##
 # Gnome 3.12

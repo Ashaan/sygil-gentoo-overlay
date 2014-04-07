@@ -82,6 +82,7 @@ net-im/pidgin                           -eds
 gnome-base/gnome-extra-apps             -evolution -games
 net-print/cups-filters                  -foomatic
 net-print/cups                          -filters
+=net-im/telepathy-mission-control-5.16.1* -upower
 
 ##
 # Netbeans
