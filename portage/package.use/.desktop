@@ -51,6 +51,19 @@ media-libs/clutter			evdev
 media-libs/mesa				gbm
 net-wireless/bluez			client monitor obex tools
 media-plugins/grilo-plugins		upnp-av
+www-client/chromium                     aura
+app-office/libreoffice                  gtk3 jemalloc telepathy
+app-emulation/emul-linux-x86-qtlibs     gtkstyle
+app-emulation/libvirt                   qemu
+app-emulation/qemu                      spice
+gnome-extra/evolution-data-server       google
+sys-apps/systemd                        openrc
+net-misc/networkmanager                 -consolekit
+www-client/firefox                      system-cairo system-icu
+sys-fs/udisks                           -crypt
+www-plugins/chrome-binary-plugins       google-chrome
+app-crypt/gcr                           vala
+media-libs/grilo                        playlist
 
 ##
 # Test
@@ -66,28 +79,16 @@ sys-apps/systemd		-openrc
 gnome-extra/gnome-games                 -aisleriot
 app-misc/tracker                        -eds
 net-im/pidgin                           -eds
-x11-wm/enlightenment                    emotion ukit
-dev-libs/e_dbus                         -connman
 gnome-base/gnome-extra-apps             -evolution -games
+net-print/cups-filters                  -foomatic
+net-print/cups                          -filters
+=net-im/telepathy-mission-control-5.16.1* -upower
+
 ##
 # Netbeans
 ##
 dev-java/swing-layout	source
 dev-vcs/subversion	java
-
-app-office/libreoffice			gtk3 jemalloc telepathy
-app-emulation/emul-linux-x86-qtlibs	gtkstyle
-app-emulation/libvirt			qemu
-app-emulation/qemu			spice
-gnome-extra/evolution-data-server	google
-sys-apps/systemd 		openrc
-net-misc/networkmanager 	-consolekit
-www-client/firefox		system-cairo system-icu
-sys-fs/udisks			-crypt
-www-plugins/chrome-binary-plugins 	google-chrome
-net-print/cups-filters          -foomatic
-net-print/cups			-filters
-app-crypt/gcr			vala
 
 ##
 # Plymouth
@@ -96,8 +97,7 @@ sys-boot/plymouth		-openrc
 sys-kernel/dracut		net
 
 
-dev-libs/efl				-X audio -opengl egl gles pixman
-media-libs/grilo			playlist
+
 
 games-puzzle/gnome-sudoku		python_single_target_python2_7
 net-print/cups				python_single_target_python2_7
@@ -120,3 +120,5 @@ net-analyzer/net-snmp                   python_single_target_python2_7
 dev-util/gtk-builder-convert            python_single_target_python2_7
 dev-util/itstool			python_single_target_python2_7
 dev-util/meld				python_single_target_python2_7
+app-admin/packagekit-base		python_single_target_python2_7
+media-gfx/gimp				python_single_target_python2_7
