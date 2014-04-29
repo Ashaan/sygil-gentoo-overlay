@@ -1,4 +1,4 @@
-media-libs/mesa				g3dvl gles1 gles2 openvg vdpau xvmc xa -llvm
+media-libs/mesa				g3dvl gles1 gles2 openvg vdpau xvmc xa llvm
 x11-libs/cairo				openvg
 x11-libs/gtk+				xinerama
 =x11-libs/cairo-1.12*			-qt4
@@ -51,7 +51,6 @@ media-libs/clutter			evdev
 media-libs/mesa				gbm
 net-wireless/bluez			client monitor obex tools
 media-plugins/grilo-plugins		upnp-av
-www-client/chromium                     aura
 app-office/libreoffice                  gtk3 jemalloc telepathy
 app-emulation/emul-linux-x86-qtlibs     gtkstyle
 app-emulation/libvirt                   qemu
@@ -64,6 +63,7 @@ sys-fs/udisks                           -crypt
 www-plugins/chrome-binary-plugins       google-chrome
 app-crypt/gcr                           vala
 media-libs/grilo                        playlist
+net-misc/spice-gtk                      usbredir vala
 
 ##
 # Test
@@ -72,7 +72,8 @@ sys-kernel/dracut		dracut_modules_plymouth optimization
 x11-libs/libdrm			libkms
 sys-boot/plymouth		gdm
 sys-apps/systemd		-openrc
-
+media-libs/cogl                 evdev
+media-libs/libmediaart		-qt4
 ##
 # Temp
 ##
@@ -96,6 +97,10 @@ dev-vcs/subversion	java
 sys-boot/plymouth		-openrc
 sys-kernel/dracut		net
 
+
+
+xfce-base/xfdesktop		-thunar
+sys-devel/llvm			video_cards_radeon clang
 
 
 
@@ -122,3 +127,6 @@ dev-util/itstool			python_single_target_python2_7
 dev-util/meld				python_single_target_python2_7
 app-admin/packagekit-base		python_single_target_python2_7
 media-gfx/gimp				python_single_target_python2_7
+net-misc/spice-gtk			python_single_target_python2_7
+gnome-extra/gnome-tweak-tool            python_single_target_python2_7
+gnome-extra/zeitgeist-extensions        python_single_target_python2_7
