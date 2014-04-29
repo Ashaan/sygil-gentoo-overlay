@@ -434,3 +434,9 @@
 =dev-libs/lzo-2.06*
 =app-emulation/emul-linux-x86-baselibs-20131008-r21
 =dev-libs/libgcrypt-1.5*
+=dev-libs/json-glib-1.0.0*
+=app-misc/tracker-1.0.0*
+=media-libs/libmediaart-0.4*
+=net-libs/libgfbgraph-0.2.2*
+=net-im/telepathy-mission-control-5.16*
+=media-plugins/grilo-plugins-0.2*
