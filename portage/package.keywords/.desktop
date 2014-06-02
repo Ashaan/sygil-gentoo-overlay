@@ -10,6 +10,7 @@
 =x11-libs/glamor-0.6*
 =dev-libs/libgcrypt-1.5.3*
 =sys-devel/clang-3.4*
+=sys-block/thin-provisioning-tools-0.3*
 
 ##
 # Gnome 3.12

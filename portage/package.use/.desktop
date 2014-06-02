@@ -101,7 +101,7 @@ sys-kernel/dracut		net
 
 xfce-base/xfdesktop		-thunar
 sys-devel/llvm			video_cards_radeon clang
-
+media-libs/mesa    		-llvm
 
 
 games-puzzle/gnome-sudoku		python_single_target_python2_7
@@ -130,3 +130,4 @@ media-gfx/gimp				python_single_target_python2_7
 net-misc/spice-gtk			python_single_target_python2_7
 gnome-extra/gnome-tweak-tool            python_single_target_python2_7
 gnome-extra/zeitgeist-extensions        python_single_target_python2_7
+gnome-base/libglade			python_single_target_python2_7
